@@ -1,6 +1,6 @@
 <?php
 
-namespace ShineYork\LaravelExtend\Database\Providers;
+namespace Haokeed\LaravelExtend\Database\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

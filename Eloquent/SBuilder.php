@@ -1,6 +1,6 @@
 <?php
 
-namespace ShineYork\LaravelExtend\Database\Eloquent;
+namespace Haokeed\LaravelExtend\Database\Eloquent;
 
 use Illuminate\Database\Eloquent\Builder as LaravelBuilder;
 

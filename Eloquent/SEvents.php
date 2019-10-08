@@ -1,7 +1,7 @@
 <?php
-namespace ShineYork\LaravelExtend\Database\Eloquent;
+namespace Haokeed\LaravelExtend\Database\Eloquent;
 
-use ShineYork\LaravelExtend\Database\Eloquent\SBuilder;
+use Haokeed\LaravelExtend\Database\Eloquent\SBuilder;
 
 trait SEvents
 {
@@ -37,12 +37,12 @@ trait SEvents
 
     public function checkModel($model = null)
     {
-        return (class_exists($model)) ? $model : 'ShineYork\LaravelShop\Data\Goods\Models\\'.$model;
+        return (class_exists($model)) ? $model : 'Haokeed\LaravelShop\Data\Goods\Models\\'.$model;
     }
 
     public function checkObserve($observe = null)
     {
-        return (class_exists($observe)) ? $observe : 'ShineYork\LaravelShop\Data\Goods\Observers\\'.$observe;
+        return (class_exists($observe)) ? $observe : 'Haokeed\LaravelShop\Data\Goods\Observers\\'.$observe;
     }
 
     public function newEloquentBuilder($query)
